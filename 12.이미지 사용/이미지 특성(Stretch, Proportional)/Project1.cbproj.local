@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.927,=C:\Users\jeayy\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.353,=C:\Users\jeayy\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.958,=C:\Users\jeayy\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.377,=C:\Users\jeayy\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2024-10-29 15:06:56.884,=C:\Users\jeayy\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2024-10-29 15:06:56.909,=C:\Users\jeayy\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2024-10-29 15:48:03.798,C:\SonLab RAD 파일\12.이미지 사용\이미지 특성(Stretch, Proportional)\Project1PCH1.h=C:\Users\jeayy\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2024-10-29 15:48:03.823,C:\SonLab RAD 파일\12.이미지 사용\이미지 특성(Stretch, Proportional)\Unit1.h=C:\Users\jeayy\Documents\Embarcadero\Studio\Projects\Unit1.h</Transaction>
+    <Transaction>2024-10-29 15:48:03.823,C:\SonLab RAD 파일\12.이미지 사용\이미지 특성(Stretch, Proportional)\Unit1.dfm=C:\Users\jeayy\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2024-10-29 15:48:03.823,C:\SonLab RAD 파일\12.이미지 사용\이미지 특성(Stretch, Proportional)\Unit1.cpp=C:\Users\jeayy\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2024-10-29 15:48:03.844,C:\SonLab RAD 파일\12.이미지 사용\이미지 특성(Stretch, Proportional)\Project1.cbproj=C:\Users\jeayy\Documents\Embarcadero\Studio\Projects\Project1.cbproj</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,58 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "Unit1.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TForm1 *Form1;
+int ConnectNum=0;
+//---------------------------------------------------------------------------
+__fastcall TForm1::TForm1(TComponent* Owner)
+	: TForm(Owner)
+{
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::ServerSocket1ClientConnect(TObject *Sender, TCustomWinSocket *Socket)
+
+{
+	ListBox1->Items->Add(Socket->RemoteAddress);
+	ConnectNum++;
+    ShowMessage("클라이언트와 연결되었습니다.");
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::FormCreate(TObject *Sender)
+{
+	Label1->Caption = "내 IP : "+IdIPWatch1->LocalIP();
+	//Label1에 서버컴퓨터의 현재 연결 IP 보이기
+    //내 IP 프로그램 실행 시 항상 보이기
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::ServerSocket1ClientDisconnect(TObject *Sender, TCustomWinSocket *Socket)
+
+{
+	ListBox1->Items->Delete(ListBox1->Items->IndexOf(Socket->RemoteAddress));
+	//연결 해제된 클라이언트 IP 목록에서 삭제
+    ShowMessage("연결이 해제되었습니다.");
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::ServerSocket1ClientRead(TObject *Sender, TCustomWinSocket *Socket)
+
+{
+	int i;
+	AnsiString Read;    //AnsiString == 한글 전송 시 일반 String보다 잘 안깨짐
+	//서버로 들어온 값을 읽을 변수 선언
+	Read = Socket->ReceiveText();
+	//서버로 들어온 값을 Read 변수에 대입
+	Memo1->Lines->Add(Read);
+	for (i = 0; i < ConnectNum; i++)
+	{
+		ServerSocket1->Socket->Connections[i]->SendText(Read);
+		//서버에 연결된 IP로 받은 데이터 전송
+	}
+}
+//---------------------------------------------------------------------------
+

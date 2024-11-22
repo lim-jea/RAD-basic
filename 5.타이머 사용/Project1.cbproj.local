@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2024-10-27 16:23:51.996,=C:\Users\jeayy\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2024-10-27 16:23:52.021,=C:\Users\jeayy\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2024-10-27 16:35:39.535,C:\SonLab RAD 파일\5.타이머 사용\Project1PCH1.h=C:\Users\jeayy\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2024-10-27 16:35:39.560,C:\SonLab RAD 파일\5.타이머 사용\Unit1.h=C:\Users\jeayy\Documents\Embarcadero\Studio\Projects\Unit1.h</Transaction>
+    <Transaction>2024-10-27 16:35:39.560,C:\SonLab RAD 파일\5.타이머 사용\Unit1.cpp=C:\Users\jeayy\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2024-10-27 16:35:39.560,C:\SonLab RAD 파일\5.타이머 사용\Unit1.dfm=C:\Users\jeayy\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2024-10-27 16:35:39.576,C:\SonLab RAD 파일\5.타이머 사용\Project1.cbproj=C:\Users\jeayy\Documents\Embarcadero\Studio\Projects\Project1.cbproj</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,16 @@
+﻿[Image1]
+Coordinates=79,10,57,58
+Visible=True
+
+[ImageList1]
+Coordinates=175,1,77,36
+
+[Button1]
+Coordinates=10,10,59,58
+
+[Button2]
+Coordinates=146,10,59,58
+
+[]
+Coordinates=156,56,91,36
+
